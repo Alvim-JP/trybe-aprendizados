@@ -1,9 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
+const Task = (value) => {
+  return (
+    <li>{value}</li>
+  );
+}
+
 function App() {
   return (
-    <div className="App">
+    const element = Task()
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
